@@ -1,0 +1,105 @@
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { setRequestLocale } from "next-intl/server";
+
+import { Roboto_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import "@/app/globals.css";
+
+import "lenis/dist/lenis.css";
+import ClientLayout from "./ClientLayout";
+import { projectNameArray } from "../configs/projects";
+import GlobalNotFound from "../global-not-found";
+import { cookies } from "next/headers";
+import { getScrollModeCookie } from "../scroll-mode";
+import SwitchModeScroll from "../components/SwitchModeScroll";
+
+export function generateStaticParams() {
+  return routing.locales.flatMap((locale) =>
+    projectNameArray.map((project) => ({
+      locale,
+      project,
+    }))
+  );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    metadataBase: new URL("https://portfolio-thanhlong.vercel.app"),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "en-US": "/en",
+        "vi-VN": "/vi",
+      },
+    },
+    icons: {
+      icon: [
+        { url: "/favicon.ico" },
+        { url: "/icon.png", sizes: "512x512", type: "image/png" },
+      ],
+      apple: "/apple-icon.png",
+    },
+    title: {
+      default: "Avinash Yadav Portfolio",
+      template: "%s | Avinash Yadav",
+    },
+    description:
+      "Portfolio of Avinash Yadav - Software Engineer specializing in Next.js, Flutter, Node.js.",
+    keywords: ["Avinash", "Portfolio", "Avinash Yadav Portfolio"],
+    openGraph: {
+      title: "Avinash Yadav Portfolio",
+      description:
+        "Software Engineer Portfolio - Frontend | Fullstack | Mobile Flutter",
+      url: "https://portfolio-thanhlong.vercel.app",
+      siteName: "Truong Thanh Long Portfolio",
+      locale: "en_US",
+      type: "website",
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+  };
+}
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin", "vietnamese"],
+  display: "swap",
+});
+
+type Props = {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+};
+
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    GlobalNotFound();
+  }
+
+  setRequestLocale(locale);
+
+  const modeScroll = await getScrollModeCookie();
+
+  return (
+    <html lang={locale} suppressHydrationWarning>
+      <body
+        className={`${roboto_mono.className} tracking-wider antialiased font-light`}>
+        <NextIntlClientProvider>
+          <ClientLayout children={children} modeScroll={modeScroll} />
+        </NextIntlClientProvider>
+      </body>
+      <GoogleAnalytics gaId="G-3HKLQM0401" />
+    </html>
+  );
+}

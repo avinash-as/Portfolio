@@ -1,0 +1,452 @@
+{
+  "BackProjects": "Back to projects",
+  "NextProject": "Next to",
+  "BackProject": "Back",
+  "LoadingImages": "Loading images...",
+  "Pending": "Sending...",
+  "BtnClose": "Close",
+  "prev": "prev",
+  "next": "next",
+  "more": "Go to gallery",
+  "clipboard": {
+    "200": "Email copied.",
+    "404": "Clipboard API is not supported.",
+    "500": "Failed to copy Email."
+  },
+  "IntroductionPage": {
+    "actor": "Avinash Yadav",
+    "university": {
+      "name": "Indira Gandhi National Open University (IGNOU)",
+      "link": "https://www.ignou.ac.in/",
+      "major": "Bachelor of Computer Applications (BCA)",
+      "state": "Pursuing BCA · Expected 2026"
+    },
+    "about1": "Full Stack Developer with a strong focus on building scalable web applications using React.js, Node.js, Express.js, MongoDB, and REST APIs. I enjoy building responsive user interfaces, developing secure backend systems, and solving real-world problems through software.",
+    "about2": "Currently pursuing a BCA from Indira Gandhi National Open University and actively looking for a Full Stack Developer, Frontend Developer, or Software Developer internship/fresher opportunity where I can contribute, learn, and grow as a developer.",
+    "cv": {
+      "title": "CV (EN)",
+      "url": "https://drive.google.com/file/d/1dENthGVxkwxH-6TItZBvZKtkw_TvhCny/view?usp=drivesdk"
+    }
+  },
+  "SideBar": {
+    "introduction": "Introduction",
+    "projects": "Projects",
+    "skillstools": "Skills  & Tools",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A collection of real-world projects I've built, ranging from AI-powered applications to full-stack systems and microservices.",
+    "projectList": {
+      "ai_deviation_intake": {
+        "title": "AI-Powered Deviation Intake Module",
+        "description": "An AI-powered web application that converts unstructured deviation or incident descriptions into structured information automatically. Users can enter natural-language information, and the AI analyzes the input, extracts relevant details, and maps them into the appropriate fields of the deviation intake form.",
+        "size": "Team size: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Tech stack",
+          "list": [
+            "React.js",
+            "JavaScript",
+            "AI/LLM API",
+            "REST APIs",
+            "HTML",
+            "CSS",
+            "Vite",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Full Stack / AI Application Developer",
+        "features": {
+          "title": "Features",
+          "list": [
+            "AI-powered text extraction",
+            "Natural-language input processing",
+            "Automatic field extraction",
+            "Structured deviation/incident form",
+            "AI-generated field mapping",
+            "User-friendly intake interface",
+            "Automatic population of relevant fields",
+            "Editable extracted information",
+            "Frontend state management",
+            "API-based AI integration",
+            "Responsive interface"
+          ]
+        },
+        "challenges": {
+          "title": "Challenges",
+          "list": [
+            "Converting unstructured natural-language input into structured fields",
+            "Getting the AI to consistently return the required information",
+            "Mapping extracted information to the correct form fields",
+            "Handling missing or ambiguous information",
+            "Designing prompts for reliable structured output",
+            "Connecting the AI processing layer with the frontend",
+            "Handling incorrect or incomplete AI responses"
+          ]
+        },
+        "learnings": {
+          "title": "Learnings",
+          "list": [
+            "Integrating AI/LLM APIs into web applications",
+            "Prompt engineering",
+            "Structured AI outputs",
+            "Natural-language information extraction",
+            "AI-to-frontend data mapping",
+            "Building AI-powered workflows",
+            "Handling unpredictable AI responses",
+            "Designing user interfaces around AI-generated data",
+            "Combining traditional web development with AI functionality"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/AI-Powered-Deviation-Intake-Module.git"
+        }
+      },
+      "quizpitara": {
+        "title": "QuizPitara – Online Quiz Contest Platform",
+        "description": "A full-stack quiz contest platform where users can participate in quizzes, answer questions, track scores, and compete through leaderboards. The platform includes authentication, contest management, quiz participation, rewards/coins, and an admin-oriented system for managing quizzes and users.",
+        "size": "Team size: 1",
+        "time": "2026 — Present",
+        "stack": {
+          "title": "Tech stack",
+          "list": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+            "JWT",
+            "Tailwind CSS",
+            "Axios",
+            "REST APIs",
+            "Redis",
+            "Node-Cron",
+            "Vite",
+            "Capacitor",
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Railway"
+          ]
+        },
+        "position": "Full Stack Developer",
+        "features": {
+          "title": "Features",
+          "list": [
+            "User registration and authentication",
+            "Quiz contest participation",
+            "Question and answer system",
+            "Countdown timer for quizzes",
+            "Contest/quiz result handling",
+            "Leaderboard system",
+            "Coin-based participation/reward system",
+            "User profile and account management",
+            "Admin-controlled contests and questions",
+            "Prize-pool configuration",
+            "KYC management",
+            "Real-time quiz/contest synchronization",
+            "Responsive mobile-first interface",
+            "REST API based frontend-backend communication",
+            "Real-time communication using Socket.io"
+          ]
+        },
+        "challenges": {
+          "title": "Challenges",
+          "list": [
+            "Maintaining accurate quiz countdown and submission timing",
+            "Synchronizing quiz state between multiple users",
+            "Designing the contest and leaderboard logic",
+            "Handling authentication and authorization securely",
+            "Managing user coins and contest participation",
+            "Connecting the React frontend with the Node.js backend",
+            "Handling deployment and environment configuration between Vercel and Railway"
+          ]
+        },
+        "learnings": {
+          "title": "Learnings",
+          "list": [
+            "Full-stack application architecture",
+            "React state and context management",
+            "Node.js/Express backend development",
+            "MongoDB schema design",
+            "JWT authentication",
+            "Socket.io real-time communication",
+            "API integration",
+            "Deployment using Vercel and Railway",
+            "Building responsive interfaces with Tailwind CSS",
+            "Designing systems involving contests, users, rewards, and leaderboards"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/QuizPitara.git",
+          "vercel": "https://quiz-arena-drab.vercel.app/"
+        }
+      },
+      "flight_search_service": {
+        "title": "Flight and Search Service – Flight Booking Backend",
+        "description": "A backend microservice responsible for managing flight information and providing flight-search functionality as part of a flight booking system. The service exposes APIs for managing flights, airports, cities and search operations.",
+        "size": "Team size: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Tech stack",
+          "list": [
+            "Node.js",
+            "Express.js",
+            "JavaScript",
+            "MySQL",
+            "Sequelize",
+            "REST APIs",
+            "Axios",
+            "RabbitMQ",
+            "JWT",
+            "Bcrypt",
+            "Cron Jobs",
+            "API Gateway",
+            "Microservices Architecture",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Backend Developer",
+        "features": {
+          "title": "Features",
+          "list": [
+            "Flight management APIs",
+            "Flight search functionality",
+            "Flight information retrieval",
+            "Airport management",
+            "City management",
+            "Database-driven flight management",
+            "RESTful API architecture",
+            "Microservice-based architecture",
+            "API communication between services",
+            "MySQL database integration",
+            "Sequelize ORM",
+            "API Gateway integration",
+            "Automated tasks using Cron Jobs",
+            "RabbitMQ-based asynchronous communication"
+          ]
+        },
+        "challenges": {
+          "title": "Challenges",
+          "list": [
+            "Designing the backend using a microservices architecture",
+            "Maintaining communication between different services",
+            "Designing relationships between flights, airports and cities",
+            "Managing database migrations",
+            "Implementing reliable API communication",
+            "Handling asynchronous operations using RabbitMQ",
+            "Designing APIs that can be consumed by other services"
+          ]
+        },
+        "learnings": {
+          "title": "Learnings",
+          "list": [
+            "Microservices architecture",
+            "Backend service separation",
+            "MySQL database design",
+            "Sequelize ORM",
+            "API Gateway concepts",
+            "Message queues with RabbitMQ",
+            "Inter-service communication",
+            "Database migrations",
+            "Cron Jobs",
+            "Designing scalable backend services"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/FlightAndSearchService.git"
+        }
+      },
+      "apniduniya": {
+        "title": "ApniDuniya – Movie Ticket Booking Platform",
+        "description": "A full-stack movie ticket booking platform that allows users to browse movies, view available shows, select seats, and manage their bookings. The application uses React for the frontend and Node.js/Express with MongoDB for backend services and data management.",
+        "size": "Team size: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Tech stack",
+          "list": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+            "REST APIs",
+            "Tailwind CSS",
+            "Axios",
+            "JavaScript",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Full Stack Developer",
+        "features": {
+          "title": "Features",
+          "list": [
+            "User authentication",
+            "Movie browsing",
+            "Movie listings",
+            "Show scheduling",
+            "Seat selection",
+            "Seat reservation",
+            "Movie booking",
+            "Booking management",
+            "User management",
+            "Responsive frontend",
+            "RESTful API integration",
+            "MongoDB database management",
+            "JWT-based authentication and authorization"
+          ]
+        },
+        "challenges": {
+          "title": "Challenges",
+          "list": [
+            "Designing the movie, theater, show and booking data structure",
+            "Preventing conflicts during seat reservation",
+            "Connecting the React frontend with backend APIs",
+            "Implementing secure authentication",
+            "Managing relationships between users, movies, shows and bookings",
+            "Building a responsive interface for different screen sizes"
+          ]
+        },
+        "learnings": {
+          "title": "Learnings",
+          "list": [
+            "Full-stack application development",
+            "React component architecture",
+            "REST API development",
+            "MongoDB schema design",
+            "JWT authentication",
+            "Backend API integration",
+            "Seat reservation logic",
+            "Frontend/backend separation",
+            "Git and GitHub workflow"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/ApniDuniya.git"
+        }
+      },
+      "twitter_backend": {
+        "title": "Twitter Backend – Social Media API",
+        "description": "A RESTful backend application inspired by Twitter. It provides APIs for user authentication and social-media interactions such as creating tweets, deleting tweets, adding hashtags, liking tweets, and commenting. The application also includes middleware for validation, error handling, access control, and automated testing.",
+        "size": "Team size: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Tech stack",
+          "list": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Passport.js",
+            "Jest",
+            "JavaScript",
+            "REST APIs",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Backend Developer",
+        "features": {
+          "title": "Features",
+          "list": [
+            "User registration",
+            "User login",
+            "Authentication using Passport.js",
+            "Tweet creation",
+            "Tweet deletion",
+            "Hashtag support",
+            "Like functionality",
+            "Comment functionality",
+            "Request validation",
+            "Error-handling middleware",
+            "Access-control middleware",
+            "MongoDB database integration",
+            "Jest unit testing",
+            "RESTful API architecture"
+          ]
+        },
+        "challenges": {
+          "title": "Challenges",
+          "list": [
+            "Implementing secure authentication",
+            "Designing MongoDB schemas for users and tweets",
+            "Managing authorization and access control",
+            "Validating incoming API requests",
+            "Handling errors consistently",
+            "Writing unit tests for important API functionality",
+            "Managing relationships between tweets, users, likes and comments"
+          ]
+        },
+        "learnings": {
+          "title": "Learnings",
+          "list": [
+            "Backend architecture with Express.js",
+            "MongoDB data modeling",
+            "Passport.js authentication",
+            "Middleware design",
+            "REST API development",
+            "API validation and error handling",
+            "Unit testing with Jest",
+            "Backend security concepts",
+            "Git/GitHub version control"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/Twitter.git"
+        }
+      }
+    }
+  },
+  "Skills&Tools": {
+    "description": "A breakdown of the languages, frameworks, and tools I use to build Web, Mobile, and Backend solutions."
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "contact": {
+      "title": "Your message",
+      "email": "Email",
+      "placeholderEmail": "your-email@gmail.com",
+      "topic": "Topic",
+      "placeholderTopic": "What's the topic today?",
+      "message": "Content",
+      "placeholderMessage": "Type your message here.",
+      "btnSubmit": "Send",
+      "btnReset": "Default"
+    },
+    "form": {
+      "email": {
+        "invalid": "Invalid email address.",
+        "min": "Email must be at least 5 characters",
+        "max": "Email must be at most 100 characters"
+      },
+      "topic": {
+        "min": "Topic must be at least 10 characters",
+        "max": "Topic must be at most 200 characters"
+      },
+      "message": {
+        "min": "Message must be at least 100 characters",
+        "max": "Message must be at most 1000 characters"
+      }
+    },
+    "responsesAPI": {
+      "200": "Email sent.",
+      "sendFailed": "Send failed.",
+      "500": "Something wrong!",
+      "429": "Please try again after 10 minutes."
+    },
+    "btn": {
+      "expire": "Send in",
+      "undo": "Undo",
+      "cancel": "Canceled"
+    },
+    "abort": "Email sending has been undone."
+  },
+  "ExperiencePage": {
+    "title": "Experience",
+    "updating": "... No service"
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "BackProjects": "Quay lại page Dự án",
+  "BackProject": "Quay lại",
+  "NextProject": "Tiếp theo",
+  "LoadingImages": "Đang tải ảnh...",
+  "Pending": "Đang gửi...",
+  "BtnClose": "Đóng",
+  "prev": "Trang trước",
+  "next": "Trang sau",
+  "more": "Tất cả ảnh",
+  "clipboard": {
+    "200": "Copy Email thành công.",
+    "404": "Clipboard API không hỗ trợ.",
+    "500": "Copy không thành công."
+  },
+  "IntroductionPage": {
+    "actor": "Avinash Yadav",
+    "university": {
+      "name": "Indira Gandhi National Open University (IGNOU)",
+      "link": "https://www.ignou.ac.in/",
+      "major": "Bachelor of Computer Applications (BCA)",
+      "state": "Pursuing BCA · Expected 2026"
+    },
+    "about1": "Full Stack Developer với trọng tâm là xây dựng các ứng dụng web có khả năng mở rộng bằng React.js, Node.js, Express.js, MongoDB và REST APIs. Tôi thích xây dựng giao diện người dùng responsive, phát triển hệ thống backend an toàn và giải quyết các vấn đề thực tế thông qua phần mềm.",
+    "about2": "Hiện tại đang theo học BCA tại Indira Gandhi National Open University và đang tìm kiếm cơ hội thực tập/fresher với vị trí Full Stack Developer, Frontend Developer hoặc Software Developer để đóng góp, học hỏi và phát triển.",
+    "cv": {
+      "title": "CV (VI)",
+      "url": "https://drive.google.com/file/d/1dENthGVxkwxH-6TItZBvZKtkw_TvhCny/view?usp=drivesdk"
+    }
+  },
+  "SideBar": {
+    "introduction": "Giới thiệu",
+    "education": "Học vấn",
+    "projects": "Dự án",
+    "skillstools": "Skills & Tools",
+    "experience": "Kinh nghiệm",
+    "contact": "Liên hệ"
+  },
+  "ProjectsPage": {
+    "title": "Dự án",
+    "description": "Tập hợp các dự án thực tế tôi đã xây dựng, từ ứng dụng AI đến hệ thống Fullstack và Microservices.",
+    "projectList": {
+      "ai_deviation_intake": {
+        "title": "AI-Powered Deviation Intake Module",
+        "description": "Ứng dụng web hỗ trợ AI chuyển đổi các mô tả deviation/incident không có cấu trúc thành thông tin có cấu trúc một cách tự động. Người dùng nhập ngôn ngữ tự nhiên, AI phân tích, trích xuất chi tiết và ánh xạ vào các trường phù hợp của biểu mẫu.",
+        "size": "Số lượng: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Công nghệ",
+          "list": [
+            "React.js",
+            "JavaScript",
+            "AI/LLM API",
+            "REST APIs",
+            "HTML",
+            "CSS",
+            "Vite",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Full Stack / AI Application Developer",
+        "features": {
+          "title": "Tính năng",
+          "list": [
+            "Trích xuất văn bản bằng AI",
+            "Xử lý đầu vào ngôn ngữ tự nhiên",
+            "Trích xuất trường tự động",
+            "Biểu mẫu deviation/incident có cấu trúc",
+            "Ánh xạ trường do AI tạo",
+            "Giao diện nhập thông tin thân thiện",
+            "Tự động điền các trường liên quan",
+            "Thông tin trích xuất có thể chỉnh sửa",
+            "Quản lý state phía Frontend",
+            "Tích hợp AI qua API",
+            "Giao diện responsive"
+          ]
+        },
+        "challenges": {
+          "title": "Thách thức",
+          "list": [
+            "Chuyển đổi đầu vào ngôn ngữ tự nhiên không cấu trúc thành các trường có cấu trúc",
+            "AI trả về thông tin yêu cầu một cách nhất quán",
+            "Ánh xạ thông tin trích xuất vào đúng trường biểu mẫu",
+            "Xử lý thông tin thiếu hoặc mơ hồ",
+            "Thiết kế prompt cho đầu ra có cấu trúc đáng tin cậy",
+            "Kết nối lớp xử lý AI với Frontend",
+            "Xử lý phản hồi AI không chính xác hoặc không đầy đủ"
+          ]
+        },
+        "learnings": {
+          "title": "Kết quả",
+          "list": [
+            "Tích hợp AI/LLM API vào ứng dụng web",
+            "Kỹ thuật Prompt Engineering",
+            "Đầu ra AI có cấu trúc",
+            "Trích xuất thông tin ngôn ngữ tự nhiên",
+            "Ánh xạ dữ liệu AI lên Frontend",
+            "Xây dựng workflow hỗ trợ AI",
+            "Xử lý phản hồi AI không dự đoán được",
+            "Thiết kế giao diện quanh dữ liệu do AI tạo",
+            "Kết hợp phát triển web truyền thống với AI"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/AI-Powered-Deviation-Intake-Module.git"
+        }
+      },
+      "quizpitara": {
+        "title": "QuizPitara – Nền tảng thi Quiz Trực tuyến",
+        "description": "Nền tảng thi quiz full-stack nơi người dùng có thể tham gia các bài quiz, trả lời câu hỏi, theo dõi điểm số và cạnh tranh qua bảng xếp hạng. Nền tảng bao gồm xác thực, quản lý cuộc thi, tham gia quiz, phần thưởng/xu và hệ thống quản lý quiz và người dùng dành cho admin.",
+        "size": "Số lượng: 1",
+        "time": "2026 — Hiện tại",
+        "stack": {
+          "title": "Công nghệ",
+          "list": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+            "JWT",
+            "Tailwind CSS",
+            "Axios",
+            "REST APIs",
+            "Redis",
+            "Node-Cron",
+            "Vite",
+            "Capacitor",
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Railway"
+          ]
+        },
+        "position": "Full Stack Developer",
+        "features": {
+          "title": "Tính năng",
+          "list": [
+            "Đăng ký và xác thực người dùng",
+            "Tham gia cuộc thi quiz",
+            "Hệ thống câu hỏi và câu trả lời",
+            "Đếm ngược thời gian quiz",
+            "Xử lý kết quả cuộc thi/quiz",
+            "Hệ thống bảng xếp hạng",
+            "Hệ thống tham gia/thưởng dựa trên xu",
+            "Quản lý hồ sơ và tài khoản người dùng",
+            "Cuộc thi và câu hỏi do admin quản lý",
+            "Cấu hình giải thưởng",
+            "Quản lý KYC",
+            "Đồng bộ cuộc thi/quiz thời gian thực",
+            "Giao diện mobile-first responsive",
+            "Giao tiếp Frontend-Backend qua REST API",
+            "Giao tiếp thời gian thực bằng Socket.io"
+          ]
+        },
+        "challenges": {
+          "title": "Thách thức",
+          "list": [
+            "Duy trì đếm ngược và thời gian nộp bài chính xác",
+            "Đồng bộ trạng thái quiz giữa nhiều người dùng",
+            "Thiết kế logic cuộc thi và bảng xếp hạng",
+            "Xử lý xác thực và phân quyền an toàn",
+            "Quản lý xu và sự tham gia của người dùng",
+            "Kết nối React Frontend với Node.js Backend",
+            "Xử lý triển khai và cấu hình môi trường giữa Vercel và Railway"
+          ]
+        },
+        "learnings": {
+          "title": "Kết quả",
+          "list": [
+            "Kiến trúc ứng dụng Full-stack",
+            "Quản lý state và context trong React",
+            "Phát triển Backend Node.js/Express",
+            "Thiết kế schema MongoDB",
+            "Xác thực JWT",
+            "Giao tiếp thời gian thực Socket.io",
+            "Tích hợp API",
+            "Triển khai bằng Vercel và Railway",
+            "Xây dựng giao diện responsive với Tailwind CSS",
+            "Thiết kế hệ thống liên quan đến cuộc thi, người dùng, phần thưởng và bảng xếp hạng"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/QuizPitara.git",
+          "vercel": "https://quiz-arena-drab.vercel.app/"
+        }
+      },
+      "flight_search_service": {
+        "title": "Flight and Search Service – Backend Đặt vé máy bay",
+        "description": "Microservice backend chịu trách nhiệm quản lý thông tin chuyến bay và cung cấp chức năng tìm kiếm chuyến bay như một phần của hệ thống đặt vé máy bay. Dịch vụ cung cấp API để quản lý chuyến bay, sân bay, thành phố và hoạt động tìm kiếm.",
+        "size": "Số lượng: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Công nghệ",
+          "list": [
+            "Node.js",
+            "Express.js",
+            "JavaScript",
+            "MySQL",
+            "Sequelize",
+            "REST APIs",
+            "Axios",
+            "RabbitMQ",
+            "JWT",
+            "Bcrypt",
+            "Cron Jobs",
+            "API Gateway",
+            "Microservices Architecture",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Backend Developer",
+        "features": {
+          "title": "Tính năng",
+          "list": [
+            "API quản lý chuyến bay",
+            "Chức năng tìm kiếm chuyến bay",
+            "Truy xuất thông tin chuyến bay",
+            "Quản lý sân bay",
+            "Quản lý thành phố",
+            "Quản lý chuyến bay dựa trên Database",
+            "Kiến trúc RESTful API",
+            "Kiến trúc Microservice",
+            "Giao tiếp API giữa các dịch vụ",
+            "Tích hợp MySQL",
+            "Sequelize ORM",
+            "Tích hợp API Gateway",
+            "Tự động hóa tác vụ bằng Cron Jobs",
+            "Giao tiếp không đồng bộ dựa trên RabbitMQ"
+          ]
+        },
+        "challenges": {
+          "title": "Thách thức",
+          "list": [
+            "Thiết kế backend theo kiến trúc microservices",
+            "Duy trì giao tiếp giữa các dịch vụ khác nhau",
+            "Thiết kế mối quan hệ giữa chuyến bay, sân bay và thành phố",
+            "Quản lý database migrations",
+            "Triển khai giao tiếp API đáng tin cậy",
+            "Xử lý hoạt động không đồng bộ bằng RabbitMQ",
+            "Thiết kế API có thể được các dịch vụ khác sử dụng"
+          ]
+        },
+        "learnings": {
+          "title": "Kết quả",
+          "list": [
+            "Kiến trúc Microservices",
+            "Tách biệt dịch vụ Backend",
+            "Thiết kế MySQL",
+            "Sequelize ORM",
+            "Khái niệm API Gateway",
+            "Message queue với RabbitMQ",
+            "Giao tiếp liên dịch vụ",
+            "Database migrations",
+            "Cron Jobs",
+            "Thiết kế dịch vụ Backend có khả năng mở rộng"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/FlightAndSearchService.git"
+        }
+      },
+      "apniduniya": {
+        "title": "ApniDuniya – Nền tảng Đặt vé Xem phim",
+        "description": "Nền tảng đặt vé xem phim full-stack cho phép người dùng duyệt phim, xem suất chiếu, chọn ghế và quản lý đặt vé. Ứng dụng sử dụng React cho Frontend và Node.js/Express với MongoDB cho Backend và quản lý dữ liệu.",
+        "size": "Số lượng: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Công nghệ",
+          "list": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+            "REST APIs",
+            "Tailwind CSS",
+            "Axios",
+            "JavaScript",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Full Stack Developer",
+        "features": {
+          "title": "Tính năng",
+          "list": [
+            "Xác thực người dùng",
+            "Duyệt phim",
+            "Danh sách phim",
+            "Lên lịch suất chiếu",
+            "Chọn ghế",
+            "Đặt chỗ ngồi",
+            "Đặt vé phim",
+            "Quản lý đặt vé",
+            "Quản lý người dùng",
+            "Frontend responsive",
+            "Tích hợp RESTful API",
+            "Quản lý MongoDB",
+            "Xác thực và phân quyền dựa trên JWT"
+          ]
+        },
+        "challenges": {
+          "title": "Thách thức",
+          "list": [
+            "Thiết kế cấu trúc dữ liệu phim, rạp, suất chiếu và đặt vé",
+            "Ngăn chặn xung đột khi đặt chỗ",
+            "Kết nối React Frontend với Backend API",
+            "Triển khai xác thực an toàn",
+            "Quản lý mối quan hệ giữa người dùng, phim, suất chiếu và đặt vé",
+            "Xây dựng giao diện responsive cho nhiều kích thước màn hình"
+          ]
+        },
+        "learnings": {
+          "title": "Kết quả",
+          "list": [
+            "Phát triển ứng dụng Full-stack",
+            "Kiến trúc component React",
+            "Phát triển REST API",
+            "Thiết kế schema MongoDB",
+            "Xác thực JWT",
+            "Tích hợp Backend API",
+            "Logic đặt chỗ",
+            "Tách biệt Frontend/Backend",
+            "Quy trình Git và GitHub"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/ApniDuniya.git"
+        }
+      },
+      "twitter_backend": {
+        "title": "Twitter Backend – Social Media API",
+        "description": "Ứng dụng backend RESTful lấy cảm hứng từ Twitter. Cung cấp API cho xác thực người dùng và tương tác mạng xã hội như tạo tweet, xóa tweet, thêm hashtag, thích tweet và bình luận. Ứng dụng còn bao gồm middleware cho validation, xử lý lỗi, kiểm soát truy cập và testing tự động.",
+        "size": "Số lượng: 1",
+        "time": "2026",
+        "stack": {
+          "title": "Công nghệ",
+          "list": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Passport.js",
+            "Jest",
+            "JavaScript",
+            "REST APIs",
+            "Git",
+            "GitHub"
+          ]
+        },
+        "position": "Backend Developer",
+        "features": {
+          "title": "Tính năng",
+          "list": [
+            "Đăng ký người dùng",
+            "Đăng nhập người dùng",
+            "Xác thực bằng Passport.js",
+            "Tạo tweet",
+            "Xóa tweet",
+            "Hỗ trợ hashtag",
+            "Chức năng thích",
+            "Chức năng bình luận",
+            "Validation request",
+            "Middleware xử lý lỗi",
+            "Middleware kiểm soát truy cập",
+            "Tích hợp MongoDB",
+            "Unit test bằng Jest",
+            "Kiến trúc RESTful API"
+          ]
+        },
+        "challenges": {
+          "title": "Thách thức",
+          "list": [
+            "Triển khai xác thực an toàn",
+            "Thiết kế schema MongoDB cho người dùng và tweet",
+            "Quản lý ủy quyền và kiểm soát truy cập",
+            "Validate request API đến",
+            "Xử lý lỗi nhất quán",
+            "Viết unit test cho các chức năng API quan trọng",
+            "Quản lý mối quan hệ giữa tweet, người dùng, lượt thích và bình luận"
+          ]
+        },
+        "learnings": {
+          "title": "Kết quả",
+          "list": [
+            "Kiến trúc Backend với Express.js",
+            "Modeling dữ liệu MongoDB",
+            "Xác thực Passport.js",
+            "Thiết kế Middleware",
+            "Phát triển REST API",
+            "Validation và xử lý lỗi API",
+            "Unit testing với Jest",
+            "Khái niệm bảo mật Backend",
+            "Quản lý phiên bản Git/GitHub"
+          ]
+        },
+        "links": {
+          "github": "https://github.com/avinash-as/Twitter.git"
+        }
+      }
+    }
+  },
+  "Skills&Tools": {
+    "description": "Tập hợp các công nghệ mình đang sử dụng để phát triển sản phẩm trên Web, Mobile và hệ thống Backend."
+  },
+  "ContactPage": {
+    "title": "Liên hệ",
+    "contact": {
+      "title": "Tin nhắn",
+      "email": "Email",
+      "placeholderEmail": "nguyenvana@gmail.com",
+      "topic": "Chủ đề",
+      "placeholderTopic": "Viết chủ đề ở đây..",
+      "message": "Nội dung",
+      "placeholderMessage": "Viết nội dung của bạn ở đây...",
+      "btnSubmit": "Gửi",
+      "btnReset": "Đặt lại"
+    },
+    "form": {
+      "email": {
+        "invalid": "Email không hợp lệ.",
+        "min": "Email phải có ít nhất 5 ký tự.",
+        "max": "Email tối đa 100 ký tự."
+      },
+      "topic": {
+        "min": "Chủ đề phải có ít nhất 10 ký tự.",
+        "max": "Chủ đề tối đa 200 ký tự."
+      },
+      "message": {
+        "min": "Nội dung phải có ít nhất 100 ký tự.",
+        "max": "Nộidung tối đa 1000 ký tự."
+      }
+    },
+    "responsesAPI": {
+      "200": "Gửi email thành công.",
+      "sendFailed": "Gửi email thất bại.",
+      "500": "Gửi email không thành công.",
+      "429": "Vui lòng thử lại sau 10 phút."
+    },
+    "btn": {
+      "expire": "Gửi sau",
+      "undo": "Hủy",
+      "cancel": "Đã hủy"
+    },
+    "abort": "Đã hoàn tác gửi email."
+  },
+  "ExperiencePage": {
+    "title": "Kinh nghiệm",
+    "updating": "Oops! o_O"
+  }
+}
