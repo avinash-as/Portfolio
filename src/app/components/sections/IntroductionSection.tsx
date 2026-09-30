@@ -92,7 +92,7 @@ export default function IntroductionSection({ mode = "multi-page" }: Props) {
         <PixelTransition
           firstContent={
             <img
-              src="/Avinash_HD.PNG"
+              src="/Avinash_HD.png"
               alt="Actor"
               style={{
                 width: "100%",
