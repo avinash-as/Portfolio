@@ -5,14 +5,7 @@
 - Node.js >= 22.15.0
 - npm >= 11.11.1
 
-## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/thanhlongtruong/Portfolio.git
-cd Portfolio
-```
 
 2. Install dependencies:
 

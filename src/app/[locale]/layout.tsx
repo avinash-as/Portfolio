@@ -50,14 +50,14 @@ export async function generateMetadata({
       template: "%s | Avinash Yadav",
     },
     description:
-      "Portfolio of Avinash Yadav - Software Engineer specializing in Next.js, Flutter, Node.js.",
+      "Portfolio of Avinash Yadav - Software Engineer specializing in Next.js, Node.js.",
     keywords: ["Avinash", "Portfolio", "Avinash Yadav Portfolio"],
     openGraph: {
       title: "Avinash Yadav Portfolio",
       description:
-        "Software Engineer Portfolio - Frontend | Fullstack | Mobile Flutter",
-      url: "https://portfolio-thanhlong.vercel.app",
-      siteName: "Truong Thanh Long Portfolio",
+        "Software Engineer Portfolio - Frontend | Fullstack | Backend",
+      url: "https://portfolio-pearl-delta-44.vercel.app/en",
+      siteName: "Avinash Yadav Portfolio",
       locale: "en_US",
       type: "website",
       images: [

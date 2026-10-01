@@ -1,6 +1,6 @@
 # Welcome to portfolio 👋
 
-[![Next](https://img.shields.io/npm/v/next?label=Next)](https://nextjs.org/) [![npm](https://img.shields.io/npm/v/npm/11.11.1-blue.svg)](https://www.npmjs.com/) [![node](https://img.shields.io/npm/v/node/22.15.0-blue.svg)](https://nodejs.org/) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/thanhlongtruong/Portfolio#readme)
+[![Next](https://img.shields.io/npm/v/next?label=Next)](https://nextjs.org/) [![npm](https://img.shields.io/npm/v/npm/11.11.1-blue.svg)](https://www.npmjs.com/) [![node](https://img.shields.io/npm/v/node/22.15.0-blue.svg)](https://nodejs.org/) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/avinash-as/Portfolio.git#readme)
 
 > A personal portfolio built with Next.js, Shadcn UI, and next-intl, showcasing my hands-on projects and technical skills as a Frontend Developer.
 

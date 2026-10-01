@@ -4,7 +4,7 @@
   "author": "Avinash Yadav",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanhlongtruong/Portfolio.git"
+    "url": "git+https://github.com/avinash-as/Portfolio.git"
   },
   "engines": {
     "npm": ">=11.11.1",

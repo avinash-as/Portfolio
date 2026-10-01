@@ -13,7 +13,7 @@ type Params = {
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { project, locale } = await params;
 
-  const baseUrl = "https://portfolio-thanhlong.vercel.app";
+  const baseUrl = "https://portfolio-pearl-delta-44.vercel.app/en";
 
   const ogImageUrl = `${baseUrl}/open-graph/${project}/home.png`;
 
@@ -28,10 +28,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       title: `${t(`${project}.title`)} | Thanh Long`,
       description: t(`${project}.description`),
       url: `${baseUrl}/${locale}/projects/${project}`,
-      siteName: "Truong Thanh Long Portfolio",
+      siteName: "Avinash Yadav Portfolio",
       locale: locale === "vi" ? "vi_VN" : "en_US",
       type: "article",
-      authors: "Truong Thanh Long",
+      authors: "Avinash Yadav",
       images: [
         {
           url: ogImageUrl,
