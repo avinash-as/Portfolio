@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import OnEarthSection from "./OnEarthSection";
 
 type Props = {
   mode?: ModeScroll;
@@ -89,38 +90,41 @@ export default function IntroductionSection({ mode = "multi-page" }: Props) {
             })}
           </div>
         </div>
-        <PixelTransition
-          firstContent={
-            <img
-              src="/Avinash_HD.png"
-              alt="Actor"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                objectPosition: "bottom",
-              }}
-            />
-          }
-          secondContent={
-            <div className="w-full h-full px-2 py-5 flex flex-col justify-start gap-3 bg-stone-950 text-white text-sm">
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href={d("university.link")}
-                className="hover:underline hover:underline-offset-2">
-                {d("university.name")}
-              </Link>
-              <p>{d("university.major")}</p>
-              <p>{d("university.state")}</p>
-            </div>
-          }
-          gridSize={10}
-          pixelColor="#ffffff"
-          once={false}
-          animationStepDuration={0.4}
-          className="custom-pixel-card"
-        />
+        <div className="flex flex-col gap-6">
+          <OnEarthSection />
+          <PixelTransition
+            firstContent={
+              <img
+                src="/Avinash_HD.png"
+                alt="Actor"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "bottom",
+                }}
+              />
+            }
+            secondContent={
+              <div className="w-full h-full px-2 py-5 flex flex-col justify-start gap-3 bg-stone-950 text-white text-sm">
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={d("university.link")}
+                  className="hover:underline hover:underline-offset-2">
+                  {d("university.name")}
+                </Link>
+                <p>{d("university.major")}</p>
+                <p>{d("university.state")}</p>
+              </div>
+            }
+            gridSize={10}
+            pixelColor="#ffffff"
+            once={false}
+            animationStepDuration={0.4}
+            className="custom-pixel-card"
+          />
+        </div>
       </div>
 
       {mode === "multi-page" && <BtnNavigatePage />}
