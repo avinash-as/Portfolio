@@ -34,7 +34,7 @@ import {
   InputGroupTextarea,
 } from "@/components/ui/input-group";
 import { formSchema } from "@/app/libs/validations/form-contact-schema";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Spinner } from "@/components/ui/spinner";
 import BtnNavigatePage from "@/app/components/btn-navigatepage";
 import { Copy } from "lucide-react";
@@ -64,6 +64,16 @@ export default function ContactSection({ mode = "multi-page" }: Props) {
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
+    const saved = sessionStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const values = JSON.parse(saved);
+        form.reset(values);
+      } catch {
+        // ignore parse errors
+      }
+    }
+
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
       if (intervalRef.current) clearInterval(intervalRef.current);
@@ -71,35 +81,11 @@ export default function ContactSection({ mode = "multi-page" }: Props) {
     };
   }, []);
 
-  const defaultValues = useMemo<FormValues>(() => {
-    if (typeof window === "undefined") {
-      return {
-        email: "",
-        topic: "",
-        message: "",
-      };
-    }
-
-    const saved = sessionStorage.getItem(STORAGE_KEY);
-
-    if (!saved) {
-      return {
-        email: "",
-        topic: "",
-        message: "",
-      };
-    }
-
-    try {
-      return JSON.parse(saved);
-    } catch {
-      return {
-        email: "",
-        topic: "",
-        message: "",
-      };
-    }
-  }, []);
+  const defaultValues: FormValues = {
+    email: "",
+    topic: "",
+    message: "",
+  };
 
   const form = useForm({
     defaultValues: defaultValues,

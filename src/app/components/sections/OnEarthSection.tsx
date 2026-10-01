@@ -12,9 +12,10 @@ function calculateAge() {
 }
 
 export default function OnEarthSection() {
-  const [age, setAge] = useState(calculateAge);
+  const [age, setAge] = useState(0);
 
   useEffect(() => {
+    setAge(calculateAge());
     const interval = setInterval(() => {
       setAge(calculateAge());
     }, 100);
