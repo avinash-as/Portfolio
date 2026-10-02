@@ -30,7 +30,7 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   return {
-    metadataBase: new URL("https://portfolio-thanhlong.vercel.app"),
+    metadataBase: new URL("https://portfolio-pearl-delta-44.vercel.app"),
     alternates: {
       canonical: `/${locale}`,
       languages: {

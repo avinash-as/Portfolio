@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://portfolio-thanhlong.vercel.app/sitemap.xml",
+    sitemap: "https://portfolio-pearl-delta-44.vercel.app/sitemap.xml",
   };
 }

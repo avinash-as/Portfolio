@@ -9,7 +9,7 @@ const roboto_mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-thanhlong.vercel.app"),
+  metadataBase: new URL("https://portfolio-pearl-delta-44.vercel.app"),
   title: "404 - Page Not Found",
   description: "The page you are looking for does not exist.",
 };
