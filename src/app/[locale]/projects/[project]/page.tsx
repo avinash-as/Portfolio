@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: `${t(`${project}.title`)}`,
     description: t(`${project}.description`),
     openGraph: {
-      title: `${t(`${project}.title`)} | Thanh Long`,
+      title: `${t(`${project}.title`)} | Avinash`,
       description: t(`${project}.description`),
       url: `${baseUrl}/${locale}/projects/${project}`,
       siteName: "Avinash Yadav Portfolio",

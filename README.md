@@ -6,7 +6,7 @@
 
 ## Visit portfolio
 
-[![English](https://img.shields.io/badge/%F0%9F%87%BA%F0%9F%87%B8-English-blue?style=for-the-badge)](https://portfolio-thanhlong.vercel.app/en) [![Vietnamese](https://img.shields.io/badge/%F0%9F%87%BB%F0%9F%87%B3-Vietnamese-red?style=for-the-badge)](https://portfolio-thanhlong.vercel.app/vi)
+[![English](https://img.shields.io/badge/%F0%9F%87%BA%F0%9F%87%B8-English-blue?style=for-the-badge)](https://portfolio-pearl-delta-44.vercel.app/en) [![Vietnamese](https://img.shields.io/badge/%F0%9F%87%BB%F0%9F%87%B3-Vietnamese-red?style=for-the-badge)](https://portfolio-pearl-delta-44.vercel.app/en)
 
 ## Features
 
